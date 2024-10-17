@@ -130,7 +130,7 @@ public class First_Menu extends JPanel {
     }
     private void updateFile(){
         try {
-            pw=new PrintWriter("paygahdade.data");
+            pw=new PrintWriter("Database.data");
         } catch (FileNotFoundException e1) {
             e1.printStackTrace();
         }
